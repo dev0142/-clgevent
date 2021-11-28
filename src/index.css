@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar-custom {
+    background-color: #0a183d !important;
+}
+.menu_active{
+  border-bottom:2px solid aqua;
+}
+.primary{
+  color: #cd1848;
+}
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.HomeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.ButtonStyle{
+  font-weight: 500;
+  padding:8px 24px;
+  background-color: #cd1848;
+  color: white;
+  display:inline-block;
+  transition:0.5s;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  text-decoration: none;
+  border:1px solid #cd1848;
+  align-items: center;
+
+  
+}
+nav .navbar-nav li a{
+  color: white !important;
+  }
+  nav .navbar-nav li a:hover{
+    color:aqua !important;
+  }
+  .navbar-brand img {
+    height: 100%;
+    margin-right: 20px;
+  }
+  .img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+
+
+
+.ButtonStyle:hover{
+  background-color:#dbbcf6;
+  color:black;
+}
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform:translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform:translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.EventButton{
+  margin-bottom:4px;
+  margin-right: 4px;
+}
+.space{
+  white-space: pre;
+}
+.ContainerColor{
+  background-color:#0a183d;
+  color:#fff;
+  
+}
+
+#mainNav {
+  background-color: #212529;
+}
+.bg-dark {
+  background-color: #343a40!important;
+}
+
+.fixed-bottom, .fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.head{
+  margin-top: 100px;
+}
+.head1{
+  margin-top: 20px;
+
+}
