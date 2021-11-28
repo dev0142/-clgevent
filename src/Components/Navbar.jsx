@@ -2,7 +2,7 @@ import {React,useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import bvi from '../assests/Images/bvicam.png'
+import bvi from '../assests/img1.png'
 
 
 function Navbar(){
@@ -15,7 +15,7 @@ function Navbar(){
     <nav id="mainNav" className="navbar navbar-expand-lg fixed-top navbar-custom">
     
   <div className="container-fluid navbar-dark">
-    <a className="img-responsive" href="/"><img src={bvi} alt={bvi} width="72" height="60"/></a>
+    <a className="img-responsive" href="/"><img src={bvi} alt={bvi} height="60"/></a>
     <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon "></span>
     </button>
