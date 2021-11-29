@@ -24,7 +24,7 @@ function Footer() {
      
     </section>
     <section class="mb-3">
-      <h5>Designed by:</h5> <p><a class="text-white" href="https://www.linkedin.com/in/devashish-bhandari-1115a7163/" target="_blank">Devashish Bhandari</a> & <a class="text-white" href="https://www.linkedin.com/in/aman-jain-323598203" target="_blank">Aman Jain</a> </p>
+      <h5>Designed by:</h5> <p><a class="text-white" href="https://www.linkedin.com/in/devashish-bhandari-1115a7163/" target="_blank">Devashish Bhandari</a> & <a class="text-white" href="https://www.linkedin.com/in/srishti-jain-092710173" target="_blank">Srishti Jain</a> </p>
     </section>
     
   </div>

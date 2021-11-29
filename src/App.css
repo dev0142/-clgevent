@@ -3,10 +3,11 @@ html{
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', cursive;
+
 }
 
 .carousal-indicators{
@@ -15,6 +16,7 @@ html{
   left: 0 !important;
 
 }
+
 
 .carousel-inner img {
     width: 100%;
@@ -27,11 +29,11 @@ color: black;
 bottom: -50px !important; */
 background-color: #0A183D !important;
 position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .carousal-caption h4{
   color: whitesmoke;
@@ -42,7 +44,15 @@ position: relative;
 @media screen and (max-width: 480px) {
   .carousel-inner img {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
+  }
+  .carousal-caption h4{
+    font-size: medium;
+    color: whitesmoke;
+  }
+  .carousal-caption h2{
+    font-size: medium;
+    color: whitesmoke;
   }
 }
 

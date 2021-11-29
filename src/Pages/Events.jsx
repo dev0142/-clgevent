@@ -6,7 +6,7 @@ function Events() {
     return (
     <div id="header" className="my-3" id="EventContainer">
     <h1 className="text-center" >Our Events</h1>
-    <div className="container-fluid mb-5 mt-6 head1">
+    <div className="container-fluid mb-5 mt-3 head1">
         <div className="row">
             <div className="col-10 mx-auto">
                 <div className="row gy-5">

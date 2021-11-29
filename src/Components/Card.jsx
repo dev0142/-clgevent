@@ -15,8 +15,8 @@ function Card(props) {
     
     return (
         <div className="col-md-12 col-lg-4 col-sm-3">
-<div className="card shadow-lg p-4 mb-5 bg-white rounded" >
-  <img src={props.imgsrc} className="card-img-top" alt="..."/>
+<div className="card shadow p-2 mb-1 bg-white rounded" >
+  <img src={props.imgsrc} className="card-img-top" height="350px" alt="..."/>
   <div className="card-body">
     <h4 className="card-title font-weight-bold">{props.title}</h4>
     <p className="card-text">{props.text}</p>

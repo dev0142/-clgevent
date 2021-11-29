@@ -1,17 +1,20 @@
 import React from 'react'
-import hunt from '../assests/Images/ch.PNG'
-import tech from '../assests/Images/codequest.PNG'
-import Mystery from '../assests/Images/mt.PNG'
-import act from '../assests/Images/monoact.PNG'
-import chess from '../assests/Images/13.jpg'
-import web from '../assests/Images/Capture2.PNG'
-import quiz from '../assests/Images/fandom.PNG'
-import Snap from '../assests/Images/snap.PNG'
-import music from '../assests/Images/ant.PNG'
-
+import gd from '../assests/Images/gd.jpeg'
+import chess from '../assests/Images/Capture1.PNG'
+import music from '../assests/Images/gd.jpeg'
+import web from '../assests/Images/8.png'
+import cynosure from '../assests/Images/cynosure.jpeg'
+import debate from '../assests/Images/debate.jpg'
+import fandom from '../assests/Images/fandom.jpeg'
+import logoDesign from '../assests/Images/logoDesign.jpeg'
+import ideaThon from '../assests/Images/ideathon.jpeg'
+import runtime from '../assests/Images/runtime.jpeg'
+import painting from '../assests/Images/painting.jpeg'
+import photography from "../assests/Images/photography.jpeg"
+import cryptic from '../assests/Images/cryptic-hunt.jpeg'
 const EventData=[
     {
-        imgsrc:hunt,
+        imgsrc:debate,
         link:"https://forms.gle/kxNm7dqJVpzmFwdr6",
         title:"Debate",
         poptitle:"Rules & Regulations",
@@ -19,8 +22,8 @@ const EventData=[
     },
 
     {
-        imgsrc:tech,
-        title:"Runtime Error",
+        imgsrc:runtime,
+        title:"Runtime Terror",
         link:"https://forms.gle/TxFdHjH9T3m7hGBG9",
         text:"",
         poptitle:"Rules & Regulations",
@@ -28,7 +31,7 @@ const EventData=[
     },
 
     {
-        imgsrc:Mystery,
+        imgsrc:gd,
         title:"Group Discussion",
         link:"https://forms.gle/s8V1Rr4QwVoZvaAt5",
         poptitle:"Rules & Regulations",
@@ -46,16 +49,16 @@ const EventData=[
     },
 
     {
-        imgsrc:web,
+        imgsrc:cynosure,
         link:"https://docs.google.com/forms/d/e/1FAIpQLSe4Her35rJDrB1bcZfDxmbvrJO1U__p1zfgA1CvESV5kGyfLw/viewform?usp=sf_link",
         title:"CYNOSURE",
         poptitle:"Rules & Regulations",
         text:"",
-        poptext:"All the master minds out there , cynosure is a quiz game . \nDifferent types of quiz to test ur IQ.\nThis is an ONLINE quiz competition which consists of 3 rounds.\n\n1. QUIZ ROUND\n\nAll the participants will be given 10 second to answer the question.\nTotal number of questions will be 5.\nWinner shall be eligible to step into next round. \n\n2.RIDDLE ROUND\n\n3 questions to be answered in 10 by the participants to get into third round3. \n\nTONGUE TWISTER \nLast round , participants would have 15 seconds to speak the lines 5 times properly without fumbling.\n\nAfter the last round participants remaining shall be considered as winners( If more than 3 participants are remaining then a tie breaking round i.e 1 quiz question shall be conducted to select the winners)"
+        poptext:"All the master minds out there , cynosure is a quiz game . \nDifferent types of quiz to test your IQ.\nThis is an ONLINE quiz competition which consists of 3 rounds.\n\n1. QUIZ ROUND\n\nAll the participants will be given 10 second to answer the question.\nTotal number of questions will be 5.\nWinner shall be eligible to step into next round. \n\n2.RIDDLE ROUND\n\n3 questions to be answered in 10 by the participants to get into third round3. \n\nTONGUE TWISTER \nLast round , participants would have 15 seconds to speak the lines 5 times properly without fumbling.\n\nAfter the last round participants remaining shall be considered as winners( If more than 3 participants are remaining then a tie breaking round i.e 1 quiz question shall be conducted to select the winners)"
     },
 
     {
-        imgsrc:quiz,
+        imgsrc:painting,
         title:"Painting",
         text:"",
         link:"https://docs.google.com/forms/d/e/1FAIpQLSeomPWr-zVcoGgs-h4wujNnV5sZt7EYT-EW7HhglBKcGkWXVg/viewform?usp=sf_link",
@@ -64,7 +67,7 @@ const EventData=[
     },
 
     {
-        imgsrc:Snap,
+        imgsrc:music,
         link:"https://forms.gle/PQcoeMrdiQL9TezP9",
         title:"Dramatics",
         text:"",
@@ -73,7 +76,7 @@ const EventData=[
        
     },
     {
-        imgsrc:music,
+        imgsrc:cryptic,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
         title:"Cryptic Hunt",
         text:"",
@@ -81,7 +84,7 @@ const EventData=[
         poptext:"Registration fees: NIL\nNumber of Rounds: 2\nNumber of Players: Only individual entries are allowed.\n\nJudging criteria\n•	Winners will be decided on the time taken to submit the answers \n•	The cryptic hunt questions involve logical reasoning, relationship determination and some out of the box thinking\n•	The main goal is to finish the hunt as early as possible.\n•	A google sheet would be sent to the participants and they need to fill it as early as possible.\n•	All the answers are text based and are either a word, number or a very short phrase.\n•	Each round consists of 20 questions each.\n•	Top 10 students would be eligible for the next round and top3 winners would be awarded with gifts.\n•	Be as quick as possible to grab the interesting prizes.\nSeries Language: English\nWin exciting prizes" 
     },
     {
-        imgsrc:music,
+        imgsrc:logoDesign,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
         title:"Logo Design",
         text:"",
@@ -89,7 +92,7 @@ const EventData=[
         poptext:"1)Aspect Ratio Should Be 1:1\n2)Artwork: Entries Must Be Submitted in Png Format With Transparent Background\n3)All Logo Design Must Be Adaptable Onto Any Form/Surface of Bharti News Publicity Materials, Including but Not Limited to, Websites, Banners, Letterheads, Flyers, Poster, Etc\n4)Inspiration Should Revolve Around Bharati Vidyapeeth Logo and College Theme\n5)60 Min Time Will Be Given" 
     },
     {
-        imgsrc:music,
+        imgsrc:fandom,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
         title:"Fandom Quiz",
         text:"",
@@ -97,12 +100,12 @@ const EventData=[
         poptext:"Registration Fees : Nill \nNumber of rounds: 3 \nTeam: Only individual entries allowed. \nJudging criteria:\nWinners will be decided on the basis of time taken to answer the questions and marks gained. \n• Window for the contest will be open from 4pm.\n• Time slots for every round will be allocated a day earlier \n\nRound 1:\nThis round will consist of 25 questions, duration of the round will be 4 minutes total.\nThe round will happen on Quizziz.com.\n\nRound 2 and Round 3 will happen on Google Meet consisting of Videos and Photos of various series(Mainly Hindi and English) to guess from.\nThe rounds will be of 12 and 8 questions respectively.\nTop 9 students will be selected for the 2nd round,and top 3 for the final(3rd) round. \n\n• Winners will be declared after every round \nSeries Language: Hindi and English \nGenre: Mix Win exciting prizes. \n\n*T&C : Any kind of cheating will lead to disqualification" 
     },
     {
-        imgsrc:music,
+        imgsrc:ideaThon,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
         title:"IdeaThon",
         text:"",
         poptitle:"Rules & Regulations",
-        poptext:"" 
+        poptext:"Event Date: 4th December'21\nEvent Time: 11:00 AM\nNo. Of Participants allowed per team: 4(maximum)\n*less than 4 allowed.\nRegulations:- No registration fee for participation.\n- The entire idea needs to be presented in 3 minutes or less.\n- Use of any kind of Props, PPT’s, Video, slideshow is allowed.\n- The decision of event coordinators and judges will be final and binding to all.\n- The results will be based on the presentation.\n- The results will the declared after the event.\n- There are no exceptions to any rules and guidelines.\n Deadline - 3rd December, 3:00PM.\nMeeting link for the event will be shared with you all via Mail or Whatsapp.\n\nPrizes: \nExciting goodies for the winners.\nE-Participation certificate to all the participants. \n\nFor any queries feel free to contact :\nShagun- +91 6284110751\nChitra - +91 8745030110\nGaurav - +91 9868078430\n Deepak - +91 9555561242\nKriti Dhingra - +91 9711353388\nKhushboo - +91 9058008716" 
     },
     {
         imgsrc:music,
@@ -113,7 +116,7 @@ const EventData=[
         poptext:"TOPICS: ( not to be disclosed to students)\n-Business talk show topics \n-Educative talk show topics\n-Think about the problems your listeners experience\n-Tech shows \n-Sports show update\n-Control Your Life...the Yoga Way\n-Dealing With Adolescent Depression\n-Should Juveniles Be Tired As Adults\n-The Power of Colous and their meanings\n-Celebrity Gossip\n-Memes And Viral Stories.\n\nBASIC RULES 🥇\nRULE1: A student have to speak for minimum for 3 Minutes and maximum 4 minutes. ⏰ \nRULE2: If a students fails To Speak Within 30 Seconds He/She will Be Disqualified.❌\nRULE3: A student can speak in any of the language that is English Hindi Or Hinglish ♨️\nRULE4: Judging criteria would be \n1.how fluent the student is speaking! \n2.His/Her Innovation Skiils.\n3. His/Her Creative thinking about that topic\n4. How much he is aware about that topic and have knowledge for the same\n5.His/Her Command Over Language.\n6.Sense Of humourAnd finally His/Her Connectivity With the audience.\nALL THE BEST\n THANKYOU🔆" 
     },
     {
-        imgsrc:music,
+        imgsrc:photography,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
         title:"Photography",
         text:"",
@@ -121,12 +124,12 @@ const EventData=[
         poptext:"PHOTOGRAPHY THEME:FOOD 🥘 \n\nBASIC RULES:\nRULE1: Submissions will not be accepted once the deadline lapses.\nRULE2: Photos must be in JPEG format.\nRULE3:Only maximum of 2 photos are allowed to be uploaded.\nRULE4: There Must be a identifying Mark below the photo so that we can now it is originally clicked by the contestant.\nRULE5:Basic editing, including colour enhancement, the use of filters, and cropping of the Photo(s) is acceptable, provided any such editing does not affect the authenticity and/or genuineness of the Photo(s).\nRULE6:Advanced editing used to create illusions, deceptions and/or manipulations, and the adding and removing of significant elements within the frame is prohibited.\nRULE7: photos found to be not original and copied -contestant may be disqualified.\n\nREELS 👠👒TOPIC-Transition Videos👓\n\nBASIC RULES:\nRULE1: Only 1 reel can be uploaded.\nRULE2: Reel should be of max 30 seconds and minimum 15 seconds,otherwise Contestant would be disqualified.\nRULE3:It should be descent, that could be shown to our audience.\nRULE4: There should be a identifying mark below the reel video too.\n\nSome Basic Rules\n1. A student can participate in either Reels Or Photography competition" 
     },
     {
-        imgsrc:music,
+        imgsrc:web,
         link:"https://forms.gle/DmG2bzrPYT2uLguJ8",
-        title:"Website Making Competition",
+        title:"Website design Competition",
         text:"",
         poptitle:"Rules & Regulations",
-        poptext:"" 
+        poptext:"Topic: Incredible Cities of India \nYou have to pick any one city of India and describe its culture, food, popular spots etc.\n1. One page must be your home (index) page, which introduces the topic. At least three pages must be dedicated to your discussion of this topic.\n2. Technologies you must use: HTML, CSS, JavaScript You may use other technologies if you want to.\n3. Your site must include:\na) Adequate text-to-background contrast; \nb) easy-to-read font size; \nc) Easily identifiable navigation with clear and concise labels; \nd) Consistent styles and colors; \ne) Text without spelling and grammar errors. \nf) At least one external link is required.Both alt tags and title tags are required on images.\n4. Your website should be unique and original.\n5. Any and all images that are visible on your site must be saved in your images folder and linked from there. Specifically, if any image that is visible on your site appears merely because you've linked to it on another site, your site will be disqualified from the competition.\n6. Code shouldn't be copied.\n7. Time limit -2.5 hours" 
     },
 
 ]

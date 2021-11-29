@@ -1,103 +1,120 @@
 import React from 'react'
-import web from '../assests/logo.png'
-import aman from '../assests/Images/aman.jpeg'
-import kirti from '../assests/Images/kirti.jpeg'
-import shubhangi from '../assests/Images/shubh.jpeg'
-import nikhil from '../assests/Images/nikhil.jpeg'
-import shubham from '../assests/Images/shubham.jpeg'
-import udit from '../assests/Images/udit.jpeg'
-import divya from '../assests/Images/divya.jpeg'
-import sheena from '../assests/Images/sheena.jpeg'
-import vanshi from '../assests/Images/vanshi.jpeg'
-import mandeep from '../assests/Images/mandeep.jpeg'
-import manish from '../assests/Images/manish.jpeg'
+import gd from '../assests/Images/gd-head.jpeg'
+import chess from '../assests/Images/chess-head.jpeg'
+import website from '../assests/Images/websiteMaking-head.jpeg'
+import cynosure from '../assests/Images/cynosure-head.jpeg'
+import debate from '../assests/Images/debate-head.jpeg'
+import fandom from '../assests/Images/fandom-head.jpeg'
+import logo from '../assests/Images/logoDesign-head.jpeg'
+import ideathon from '../assests/Images/ideathon-head.jpeg'
+import runtime from '../assests/Images/runtime-head.jpeg'
+import painting from '../assests/Images/painting-head.jpeg'
+import photography from "../assests/Images/photography-head.jpeg"
+import cryptic from '../assests/Images/cryptic-head.jpeg'
+
 
 const EventData=[
+   
     {
-        imgsrc:sheena,
-        name:"Sheena Narula",
-        number:"tel:9971638520",
-        linkenIn:"https://www.linkedin.com/in/sheena-narula-50462a172",
-        title:"Head Coordinator"
-    },
-    {
-        imgsrc:vanshi,
-        name:"Vanshikaa Gupta",
-        number:"tel:9555516638",
-        linkenIn:"https://www.linkedin.com/in/vanshikaa-gupta-1970a41aa",
-        title:"Head Coordinator"
-    },
-    {
-        imgsrc:kirti,
-        name:"Kriti Dhingra",
-        number:"tel:9711353388",
-        linkenIn:"https://www.linkedin.com/in/kriti-dhingra-a729b0194",
-        title:"Mystery Twist"
+        imgsrc:debate,
+        name:"Abhay Yadav",
+        number:"tel:7088751301",
+        title:"Debate competition"
     },
 
     {
-        number:"tel:9205830020",
-        name:"Shubham Dhyani",
-        linkenIn:"http://www.linkedin.com/in/tensioner06",
-        imgsrc:shubham,
-        title:"Snapable",
+        number:"tel:8178006872",
+        name:" Srishti Jain",
+        imgsrc:runtime,
+        title:"Runtime terror",
     },
 
     {
-        number:"tel:9818927127",
-        name:"Divya Aggarwal",
-        imgsrc:divya,
-        linkenIn:"https://www.linkedin.com/in/divya-aggarwal-92a71a186",
+        number:"tel:6901690893",
+        name:"Pankaj Sarmah ",
+        imgsrc:fandom,
+     
         title:"Fandom Quiz"
     },
 
     {
-        number:"tel:8368186980",
-        name:"Manish Bisht",
-        linkenIn:"https://www.linkedin.com/in/creatorbisht",
-        imgsrc:manish,
+        number:"tel:9910472278",
+        name:"Sanya Wadhwa",
+ 
+        imgsrc:cryptic,
         title:"Cryptic Hunt"
     },
 
     {
-        number:"tel:7206324772",
-        name:"Mandeep",
-        linkenIn:"https://www.linkedin.com/in/mandeep-singh-4079a7181",
-        imgsrc:mandeep,
-        title:"Web Designing"
+        number:"tel:8800282376",
+        name:"Yatin Dhawan",
+        imgsrc:website,
+        title:"Website Designing"
     },
 
     {
-        number:"tel:8447398898",
-        name:"Shubhangi Gupta",
-        linkenIn:"https://www.linkedin.com/in/shubhangi-8988",
-        imgsrc:shubhangi,
+        number:"tel:8587045807",
+        name:"Debaditya Mandal",
+   
+        imgsrc:chess,
         title:"Chess Tournament"
     },
 
     {
-        number:"tel:7903928783",
-        name:"Nikhil Kumar",
-        linkenIn:"https://www.linkedin.com/in/nikhil-kumar-a7aa15156",
-        imgsrc:nikhil,
-        title:"Kirdaar"
+        number:"tel:7599962889",
+        name:"Diksha Agrawal",
+    
+        imgsrc:gd,
+        title:"Group Discussion"
     },
 
     {
-        number:"tel:8826479826",
-        name:"Udit Mohan Kalra",
-        linkenIn:"https://www.linkedin.com/in/udit-mohan-kalra-b95347118",
-        imgsrc:udit,
-        title:"Code Quest"
+        number:"tel:9650252130",
+        name:"Ananya Arora",
+        imgsrc:cynosure ,      
+         title:"CYNOSURE"
+    },
+    {
+        number:"tel:8920682266",
+        name:"Ritika Bansal",
+    
+        imgsrc:painting ,      
+         title:"Painting competition"
+    },
+    
+    {
+        number:"tel:7291817280",
+        name:"Jasleen Kaur",
+        imgsrc:logo ,      
+        title:"Logo Designing"
+    },
+    {
+        number:"tel:8745030110",
+        name:"Chitra Karakoti",
+        
+        imgsrc:ideathon ,      
+        title:"IdeaThon"
+    },
+    {
+        number:"tel:9953759818",
+        name:" Kashika Tayal",
+        imgsrc:photography ,      
+        title:"Photography"
     },
     {
         number:"tel:7678413123",
         name:"Aman Bhoria",
-        linkenIn:"https://www.linkedin.com/in/aman-bhoria-b36446130",
-        imgsrc:aman,
-        title:"Antara The Music Festival"
+    
+        imgsrc:null ,      
+         title:"Dramatics"
     },
-
+    {
+        number:"tel:7678413123",
+        name:"Aman Bhoria",
+        
+        imgsrc:null ,      
+        title:"RJ Hunt"
+    },
 ]
 
 export default EventData

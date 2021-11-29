@@ -22,7 +22,7 @@ function Home() {
     <div className="carousel-item active">
       <img src={image7} alt="Los Angeles" width="1100" height="100" />
       <div className="carousal-caption mb-4 text-center" >
-        <h2 >EDUCATION DAY</h2>
+        <h2> NATIONAL EDUCATION DAY</h2>
         <h4>Event Date : 4th December</h4>
       </div>   
     </div>
