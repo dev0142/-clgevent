@@ -4,7 +4,7 @@ import Events from '../Pages/Events'
 import Contact from '../Pages/Contact'
 import image7 from "../assests/image7.jpg"
 import image2 from "../assests/image2.jpeg"
-import image3 from "../assests/image3.jpeg"
+import image8 from "../assests/image8.jpg"
 
 function Home() {
     return (
@@ -29,14 +29,14 @@ function Home() {
     <div className="carousel-item">
       <img src={image2} alt="Chicago" width="1100" height="100"/>
       <div className="carousal-caption mb-4  text-center">
-        <h2>Ready for the exciting competition....</h2>
+        <h2>Ready for the exciting competitions....</h2>
         <h4>Join us in this amazing journey!!</h4>
       </div>   
     </div>
     <div className="carousel-item">
-      <img src={image3} alt="New York" width="1100" height="200" />
+      <img src={image8} alt="New York" width="1100" height="200" />
       <div className="carousal-caption mb-4 text-center">
-        <h2>wishing you all luck</h2>
+        <h2>Wishing you all luck</h2>
         <h4>Thank You!</h4>
       </div>   
     </div>

@@ -122,7 +122,9 @@ nav .navbar-nav li a{
   margin-right: 4px;
 }
 .space{
-  white-space: pre;
+
+  word-wrap: break-word;
+    white-space:pre-wrap;
 }
 .ContainerColor{
   background-color:#0a183d;
