@@ -21,8 +21,20 @@ function Card(props) {
         />
         <div className="card-body">
           <h4 className="card-title font-weight-bold">{props.title}</h4>
-          <p className="card-text">{props.text}</p>
-          <div style={{display:`flex`,alignItems:`center`,justifyContent:`flex-start`}}><h5>Event Time:    </h5> <h4>{props.time}</h4></div>
+
+          <div
+            style={{
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `flex-start`,
+            }}
+          >
+            <h5 className="responsive">Event Time: </h5>{" "}
+            <h5 className="responsive" style={{ fontWeight: `600` }}>
+              {props.time}
+            </h5>
+          </div>
+          <br />
           <a
             href={props.link}
             target="_blank"

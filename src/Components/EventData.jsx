@@ -94,7 +94,7 @@ const EventData = [
     link: "https://forms.gle/PptxNkaaBRwhT3u18",
     poptitle: "Rules & Regulations",
     poptext:
-      "1.) Competition will start at 11:30 am sharp, be on time\n2.) Participants will get Maximum time of 90 mins.\n3.) Participants are required to carry colors whatever is required by them\n4.Participants can choose any one topic of their choice:\n The Importance of Education,\n Equality in Religion,\n Where you see yourself in 5yrs from now\n5.) Painting should be on the topics given above else it will be disqualified",
+      "1.) Competition will start at 5pm sharp, be on time\n2.) Participants will get Maximum time of 90 mins.\n3.) Participants are required to carry colors whatever is required by them\n4.Participants can choose any one topic of their choice:\n The Importance of Education,\n Equality in Religion,\n Where you see yourself in 5yrs from now\n5.) Painting should be on the topics given above else it will be disqualified",
     time: "5:00-6:30pm",
   },
 

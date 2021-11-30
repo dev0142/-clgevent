@@ -51,6 +51,13 @@ bottom: -50px !important; */
     font-size: medium;
     color: whitesmoke;
   }
+
+  .card-title{
+    font-size: 19px;
+  }
+  .responsive{
+    font-size: 18px;
+  }
 }
 
 /*===welcome section===*/

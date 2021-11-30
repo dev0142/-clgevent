@@ -144,8 +144,4 @@ nav .navbar-nav li a:hover {
 .head1 {
   margin-top: 20px;
 }
-.mine {
-  border-radius: 10px !important;
-  background: #e0e0e0 !important;
-  box-shadow: -6px 6px 12px #828282, 6px -6px 12px #473c3c !important;
-}
+
