@@ -8,6 +8,7 @@ function ContactCard(props) {
     <div className="col-md-12 col-lg-4 col-sm-3">
       <div className="card shadow-lg p-4 mb-2 bg-white rounded">
         <img
+          style={{ objectFit: "contain" }}
           src={props.imgsrc}
           height="350px"
           className="card-img-top"
